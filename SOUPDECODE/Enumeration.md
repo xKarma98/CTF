@@ -3,6 +3,7 @@ Machine ip:10.201.64.83
 
 # Scan of the Windows server;
 nmap -sCV -v --min-rate 10000 10.201.64.83
+```sh
 PORT     STATE SERVICE       VERSION
 53/tcp   open  domain        Simple DNS Plus
 88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-08-14 11:46:34Z)
@@ -44,6 +45,7 @@ Host script results:
 |   date: 2025-08-14T11:46:39
 |_  start_date: N/A
 |_clock-skew: mean: -1s, deviation: 0s, median: -1s
+```
 
 # Outputs:
 DC01, DC01.SOUPDECODE.LOCAL, SOUPDECODE.LOCAL
